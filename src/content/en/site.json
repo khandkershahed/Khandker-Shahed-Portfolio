@@ -1,0 +1,1528 @@
+{
+  "locale": "en",
+  "navigation": [{
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "label": "About",
+      "path": "about"
+    },
+    {
+      "label": "Resume",
+      "path": "resume"
+    },
+    {
+      "label": "Portfolio",
+      "path": "portfolio"
+    },
+    {
+      "label": "Blog",
+      "path": "blog"
+    },
+    {
+      "label": "Contact",
+      "path": "contact"
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Khandker Shahed | Full-Stack Laravel & Software Developer in Bologna",
+      "description": "Portfolio of Khandker Shahed, a full-stack software developer with 5+ years of experience in Laravel, PHP, MySQL, JavaScript, REST APIs, e-commerce and business applications, currently learning React and Next.js.",
+      "keywords": [
+        "Khandker Shahed",
+        "Laravel developer Bologna",
+        "PHP developer Bologna",
+        "full-stack developer Bologna",
+        "web developer Italy",
+        "Next.js portfolio",
+        "REST API developer",
+        "MySQL developer"
+      ]
+    },
+    "resume": {
+      "title": "Professional Resume | Khandker Shahed - Web & Software Developer",
+      "description": "Professional experience and technical profile of Khandker Shahed: Laravel, PHP, MySQL, JavaScript, REST APIs, Linux deployment, team leadership, plus ongoing React and Next.js learning.",
+      "keywords": [
+        "Khandker Shahed resume",
+        "Laravel developer CV",
+        "PHP developer Bologna",
+        "full-stack developer experience",
+        "web developer resume Italy"
+      ]
+    },
+    "portfolio": {
+      "title": "Portfolio | Khandker Shahed - Web & Software Development Projects",
+      "description": "Selected production web projects by Khandker Shahed across e-commerce, business, media, education and organizations, plus an ongoing Next.js portfolio rebuild.",
+      "keywords": [
+        "Khandker Shahed portfolio",
+        "Laravel projects",
+        "PHP projects",
+        "e-commerce developer",
+        "web application portfolio",
+        "Bologna developer"
+      ]
+    },
+    "blog": {
+      "title": "Developer Notes | Khandker Shahed",
+      "description": "Development notes and upcoming articles from Khandker Shahed covering Laravel, PHP, REST APIs, MySQL performance, React and Next.js learning.",
+      "keywords": [
+        "Laravel blog",
+        "PHP development",
+        "Next.js learning",
+        "MERN learning",
+        "software engineering blog",
+        "Khandker Shahed"
+      ]
+    },
+    "contact": {
+      "title": "Contact | Khandker Shahed - Software Developer in Bologna",
+      "description": "Contact Khandker Shahed in Bologna, Italy for web-development and software-development opportunities.",
+      "keywords": [
+        "contact Khandker Shahed",
+        "Laravel developer Bologna contact",
+        "PHP developer Italy",
+        "web developer Bologna"
+      ]
+    },
+    "about": {
+      "title": "About Khandker Shahed | Full-Stack Laravel Developer in Bologna",
+      "description": "Learn about Khandker Shahed, a Bologna-based full-stack web developer with 5+ years of experience in Laravel, PHP, MySQL, REST APIs, e-commerce, business systems and production deployment.",
+      "keywords": [
+        "Khandker Shahed",
+        "Laravel developer Bologna",
+        "PHP developer Bologna",
+        "full-stack developer Italy",
+        "web developer Bologna",
+        "MySQL developer",
+        "REST API developer"
+      ]
+    }
+  },
+  "profile": {
+    "name": "Khandker Shahed",
+    "greeting": "Hello",
+    "identityLine": "I'm Khandker Shahed",
+    "rolePrefix": "I am",
+    "roles": [
+      "a Full-Stack Developer.",
+      "a Laravel Developer.",
+      "a PHP Developer.",
+      "a Software Developer."
+    ],
+    "about": "Full-stack developer with more than 5 years of professional experience building production web applications, REST APIs, e-commerce platforms and business systems using Laravel, PHP, MySQL, JavaScript and jQuery. I work across the complete development lifecycle—from planning and database design to deployment, maintenance and performance optimization. I am currently expanding my frontend stack with React and Next.js through hands-on small projects, including this portfolio rebuild.",
+    "phoneDisplay": "+39 352 027 3062",
+    "phoneHref": "tel:+393520273062",
+    "whatsappHref": "https://wa.me/393520273062",
+    "email": "khandkershahed23@gmail.com",
+    "emailDisplay": "khandkershahed23@gmail.com",
+    "location": "Bologna, Italy",
+    "socials": [{
+        "label": "Facebook",
+        "url": "https://www.facebook.com/khandkershahed/",
+        "iconClass": "fa-brands fa-facebook-f"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/khandker-shahed-1a3716173/",
+        "iconClass": "fa-brands fa-linkedin-in"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/khandkershahed",
+        "iconClass": "fa-brands fa-github"
+      }
+    ]
+  },
+  "home": {
+    "technologyEyebrow": "TECHNOLOGY STACK",
+    "technologyTitle": "Tools I work with and technologies I am learning",
+    "technologies": [{
+        "name": "Laravel",
+        "mark": "L",
+        "status": "core"
+      },
+      {
+        "name": "PHP",
+        "mark": "PHP",
+        "status": "core"
+      },
+      {
+        "name": "Blade",
+        "mark": "B",
+        "status": "core"
+      },
+      {
+        "name": "MySQL",
+        "mark": "SQL",
+        "status": "core"
+      },
+      {
+        "name": "JavaScript",
+        "mark": "JS",
+        "status": "core"
+      },
+      {
+        "name": "jQuery",
+        "mark": "jQ",
+        "status": "core"
+      },
+      {
+        "name": "HTML5",
+        "mark": "<>",
+        "status": "core"
+      },
+      {
+        "name": "CSS3",
+        "mark": "{}",
+        "status": "core"
+      },
+      {
+        "name": "REST API",
+        "mark": "API",
+        "status": "core"
+      },
+      {
+        "name": "MVC",
+        "mark": "MVC",
+        "status": "used"
+      },
+      {
+        "name": "OOP",
+        "mark": "OOP",
+        "status": "used"
+      },
+      {
+        "name": "Git",
+        "mark": "Git",
+        "status": "used"
+      },
+      {
+        "name": "GitHub",
+        "mark": "GH",
+        "status": "used"
+      },
+      {
+        "name": "Jira",
+        "mark": "J",
+        "status": "used"
+      },
+      {
+        "name": "Linux",
+        "mark": "Linux",
+        "status": "used"
+      },
+      {
+        "name": "Ubuntu Server",
+        "mark": "U",
+        "status": "used"
+      },
+      {
+        "name": "NGINX",
+        "mark": "N",
+        "status": "used"
+      },
+      {
+        "name": "cPanel",
+        "mark": "cP",
+        "status": "used"
+      },
+      {
+        "name": "Docker",
+        "mark": "D",
+        "status": "used"
+      },
+      {
+        "name": "DigitalOcean",
+        "mark": "DO",
+        "status": "used"
+      },
+      {
+        "name": "Python",
+        "mark": "Py",
+        "status": "used"
+      },
+      {
+        "name": "ZKTeco Integration",
+        "mark": "ZK",
+        "status": "used"
+      },
+      {
+        "name": "Apache Spark",
+        "mark": "SP",
+        "status": "used"
+      },
+      {
+        "name": "R",
+        "mark": "R",
+        "status": "used"
+      },
+      {
+        "name": "MATLAB / Simulink",
+        "mark": "MAT",
+        "status": "used"
+      },
+      {
+        "name": "Data Science",
+        "mark": "DS",
+        "status": "used"
+      },
+      {
+        "name": "Machine Learning",
+        "mark": "ML",
+        "status": "used"
+      },
+      {
+        "name": "Neural Networks",
+        "mark": "NN",
+        "status": "used"
+      },
+      {
+        "name": "Deep Learning",
+        "mark": "DL",
+        "status": "used"
+      },
+      {
+        "name": "NLP",
+        "mark": "NLP",
+        "status": "used"
+      },
+      {
+        "name": "Bioinformatics Tools",
+        "mark": "BIO",
+        "status": "used"
+      },
+      {
+        "name": "React",
+        "mark": "⚛",
+        "status": "learning",
+        "statusLabel": "Learning"
+      },
+      {
+        "name": "Next.js",
+        "mark": "N.js",
+        "status": "learning",
+        "statusLabel": "Learning"
+      },
+      {
+        "name": "Node.js",
+        "mark": "Node",
+        "status": "learning",
+        "statusLabel": "Learning"
+      },
+      {
+        "name": "Express.js",
+        "mark": "Ex",
+        "status": "learning",
+        "statusLabel": "Learning"
+      },
+      {
+        "name": "MongoDB",
+        "mark": "M",
+        "status": "learning",
+        "statusLabel": "Learning"
+      }
+    ],
+    "heroHighlights": [
+      "Based in Bologna, Italy",
+      "Laravel & business web systems",
+      "From planning to production",
+      "English communication"
+    ],
+    "servicesEyebrow": "WHAT I DO",
+    "servicesTitle": "Practical web development from idea to production",
+    "servicesIntro": "My strongest experience is in Laravel/PHP applications, databases, APIs and production delivery. I also keep expanding my frontend and MERN skills through structured learning and hands-on projects.",
+    "services": [{
+        "title": "Laravel & PHP Web Applications",
+        "iconClass": "flaticon-web-development",
+        "description": "Production-focused web applications built with Laravel, Blade, PHP and structured MVC/OOP patterns.",
+        "tags": [
+          "Laravel",
+          "PHP",
+          "Blade"
+        ]
+      },
+      {
+        "title": "REST APIs & System Integrations",
+        "iconClass": "fa-solid fa-code",
+        "description": "Clean REST APIs and integrations that connect frontends, business systems, databases and third-party services.",
+        "tags": [
+          "REST API",
+          "JSON",
+          "Integrations"
+        ]
+      },
+      {
+        "title": "E-commerce & Business Systems",
+        "iconClass": "fa-solid fa-laptop-code",
+        "description": "E-commerce, LMS, inventory, POS and internal management systems shaped around real operational workflows.",
+        "tags": [
+          "E-commerce",
+          "LMS",
+          "Business Apps"
+        ]
+      },
+      {
+        "title": "MySQL & Performance Optimization",
+        "iconClass": "fa-solid fa-database",
+        "description": "Database design, query tuning and application-level optimization to improve speed, stability and user experience.",
+        "tags": [
+          "MySQL",
+          "Queries",
+          "Performance"
+        ]
+      },
+      {
+        "title": "Frontend Implementation",
+        "iconClass": "fa-brands fa-react",
+        "description": "Responsive interfaces with HTML, CSS, JavaScript and jQuery, while expanding into React and Next.js through hands-on projects.",
+        "tags": [
+          "JavaScript",
+          "jQuery",
+          "React / Next.js"
+        ]
+      },
+      {
+        "title": "Deployment & Server Management",
+        "iconClass": "fa-solid fa-server",
+        "description": "Deployment, Linux server setup, NGINX/cPanel configuration, Git workflows and ongoing production maintenance.",
+        "tags": [
+          "Linux",
+          "NGINX",
+          "Deployment"
+        ]
+      },
+      {
+        "title": "Maintenance, Debugging & Reliability",
+        "iconClass": "fa-solid fa-code",
+        "description": "Practical debugging, code review, issue resolution, security-minded maintenance and reliability improvements for existing systems.",
+        "tags": [
+          "Debugging",
+          "Maintenance",
+          "Reliability"
+        ]
+      },
+      {
+        "title": "Project Coordination & Delivery",
+        "iconClass": "fa-solid fa-briefcase",
+        "description": "Project planning, Jira-based coordination, sprint tracking and cross-functional collaboration from requirements to release.",
+        "tags": [
+          "Jira",
+          "Planning",
+          "Team Delivery"
+        ]
+      }
+    ],
+    "snapshotEyebrow": "PROFESSIONAL SNAPSHOT",
+    "snapshotTitle": "Experience grounded in real production work",
+    "stats": [{
+        "value": "5+",
+        "label": "Years of professional web-development experience"
+      },
+      {
+        "value": "15+",
+        "label": "Live projects listed in my current portfolio"
+      },
+      {
+        "value": "2",
+        "label": "Professional web-development roles"
+      }
+    ],
+    "approachEyebrow": "HOW I WORK",
+    "approachTitle": "A simple process focused on useful, maintainable software",
+    "approachIntro": "I prefer clear requirements, practical architecture and steady delivery. My goal is to make software easier to use, maintain and improve after launch.",
+    "approachItems": [{
+        "number": "01",
+        "title": "Plan before building",
+        "description": "Translate requirements into a clear scope, data model, priorities and delivery path before writing the main implementation."
+      },
+      {
+        "number": "02",
+        "title": "Build for real workflows",
+        "description": "Focus on the actual users, business rules and operational steps instead of adding complexity that the product does not need."
+      },
+      {
+        "number": "03",
+        "title": "Protect performance & reliability",
+        "description": "Pay attention to database queries, debugging, validation, deployment and maintenance so the system remains dependable in production."
+      },
+      {
+        "number": "04",
+        "title": "Communicate and ship",
+        "description": "Use transparent task tracking, feedback and cross-functional collaboration to keep work understandable and moving toward release."
+      }
+    ],
+    "featuredEyebrow": "SELECTED WORK",
+    "featuredTitle": "A few production projects across different industries",
+    "featuredIntro": "These examples show the range of systems I have worked on, including e-commerce, research, media, legal and training platforms.",
+    "featuredProjects": [
+      "BioMacLab",
+      "PNN 24 News",
+      "Iuris Consulti",
+      "Shreeja General Hospital",
+      "Ardhanggini",
+      "GoFlixZa"
+    ],
+    "featuredCta": "View all projects",
+    "testimonialsEyebrow": "CLIENT & TEAM FEEDBACK",
+    "testimonialsTitle": "What The People Saying",
+    "testimonials": [{
+        "quote": "I collaborated with Shahed on a research project, and their ability to analyze complex data and apply innovative methods was invaluable. A true professional with a sharp mind!",
+        "author": "Ashiquzzaman",
+        "role": "Web Developer",
+        "image": "/legacy/images/comment-3.jpg"
+      },
+      {
+        "quote": "As both a developer and researcher, Shahed seamlessly integrated advanced features into our platform. Their technical skills and research insight were crucial to our success.",
+        "author": "Nahidul Islam",
+        "role": "UI/UX Designer",
+        "image": "/legacy/images/comment-5.jpg"
+      },
+      {
+        "quote": "I hired Khandker Shahed for a website project, and the results were fantastic. They delivered high-quality work on time and were always communicative and professional.",
+        "author": "Sazeduzzaman",
+        "role": "Frontend Developer (MERN)",
+        "image": "/legacy/images/comment-4.jpg"
+      },
+      {
+        "quote": "Shahed tackled our complex web development challenges with skill and precision. They provided excellent solutions and delivered exceptional results. Highly recommended!",
+        "author": "Flixza Global",
+        "role": "Solution Company",
+        "image": "/legacy/images/flixza-global.png"
+      }
+    ],
+    "blogEyebrow": "LATEST NOTES",
+    "blogTitle": "Recent development articles",
+    "blogIntro": "Short, practical notes from what I am building, learning and testing across Laravel, JavaScript, MERN, AI-assisted development and modern web engineering.",
+    "blogCta": "Explore all articles",
+    "ctaEyebrow": "LET'S CONNECT",
+    "ctaTitle": "Need a dependable developer for a web project or team?",
+    "ctaText": "I am open to web-development opportunities, project collaboration and practical software work in Bologna, across Italy and remotely.",
+    "ctaPrimary": "Contact me",
+    "ctaSecondary": "View resume",
+    "clients": [{
+        "image": "/legacy/images/clients/client-1d.png",
+        "alt": ""
+      },
+      {
+        "image": "/legacy/images/clients/client-2d.png",
+        "alt": ""
+      },
+      {
+        "image": "/legacy/images/clients/client-3d.png",
+        "alt": ""
+      },
+      {
+        "image": "/legacy/images/clients/client-4d.png",
+        "alt": ""
+      },
+      {
+        "image": "/legacy/images/clients/client-5d.png",
+        "alt": ""
+      },
+      {
+        "image": "/legacy/images/clients/client-6d.png",
+        "alt": ""
+      },
+      {
+        "image": "/legacy/images/clients/client-7d.png",
+        "alt": ""
+      }
+    ]
+  },
+  "resume": {
+    "title": "PROFESSIONAL RESUME",
+    "summaryEyebrow": "WEB / SOFTWARE DEVELOPER",
+    "summaryTitle": "Laravel-focused full-stack developer with production delivery experience",
+    "summary": "I have more than 5 years of professional web-development experience, with a strong focus on Laravel, PHP, MySQL, JavaScript, jQuery and REST APIs. I have led projects from planning through deployment, built business systems and e-commerce platforms, optimized databases and supported production environments. I am now broadening my frontend capabilities with React and Next.js through structured learning and small hands-on projects.",
+    "targetLabel": "TARGET ROLES",
+    "targetRoles": [
+      "Full-Stack Developer",
+      "Laravel / PHP Developer",
+      "Backend Developer",
+      "Software Developer"
+    ],
+    "coreStackLabel": "CORE STACK",
+    "coreStack": [
+      "Laravel",
+      "PHP",
+      "MySQL",
+      "JavaScript",
+      "jQuery",
+      "REST API",
+      "HTML5",
+      "CSS3",
+      "Git / GitHub",
+      "Linux",
+      "NGINX"
+    ],
+    "learningLabel": "CURRENTLY LEARNING & BUILDING",
+    "learningText": "React and Next.js are my current frontend-learning focus. I am applying them in small projects and in the migration of this portfolio from PHP to Next.js.",
+    "learningStack": [
+      "React",
+      "Next.js",
+      "Component-based UI",
+      "App Router",
+      "Responsive UI"
+    ],
+    "workLabel": "Professional Experience",
+    "educationLabel": "Education",
+    "trainingLabel": "Training & Certifications",
+    "skillsLabel": "Technical Skills",
+    "experience": [{
+        "period": "December 2022 - May 2026",
+        "role": "Lead Developer",
+        "company": "NGEN IT LIMITED",
+        "location": "Dhaka, Bangladesh",
+        "bullets": [
+          "Led multiple web projects across planning, implementation, testing, deployment and maintenance while coordinating developers and delivery timelines.",
+          "Built and maintained Laravel/PHP business applications, e-commerce platforms, LMS and inventory/course-management solutions with MySQL-backed workflows.",
+          "Led development of an in-house HR management system with ZKTeco biometric attendance integration, KPI tracking, automated email alerts and database notifications.",
+          "Applied SEO-aware development, debugging and performance optimization to improve maintainability, loading performance and production reliability.",
+          "Used Jira for sprint planning, task tracking and transparent coordination across technical and non-technical stakeholders."
+        ],
+        "stack": [
+          "Laravel",
+          "PHP",
+          "MySQL",
+          "JavaScript",
+          "jQuery",
+          "REST API",
+          "Jira",
+          "ZKTeco Integration"
+        ]
+      },
+      {
+        "period": "November 2019 - September 2022",
+        "role": "Web Developer",
+        "company": "CODER'S HAT",
+        "location": "Dhaka, Bangladesh",
+        "bullets": [
+          "Developed and maintained dynamic websites, e-commerce platforms and business web applications using Laravel, PHP, JavaScript, jQuery and MySQL.",
+          "Built REST APIs for front-end applications and third-party integrations, including business and e-commerce workflows.",
+          "Optimized MySQL queries and application logic to reduce load times and improve user experience.",
+          "Worked with designers and developers to deliver responsive interfaces across desktop, tablet and mobile devices.",
+          "Handled coding, testing, debugging, deployment, maintenance, security-focused development and performance improvements for client projects."
+        ],
+        "stack": [
+          "Laravel",
+          "PHP",
+          "MySQL",
+          "JavaScript",
+          "jQuery",
+          "REST API",
+          "HTML / CSS",
+          "Deployment"
+        ]
+      }
+    ],
+    "education": [{
+        "period": "Starting September 2026",
+        "degree": "MSc in Communication Engineering",
+        "institution": "University of Bologna",
+        "details": [
+          "Bologna, Italy"
+        ]
+      },
+      {
+        "period": "2015 - 2018",
+        "degree": "Bachelor of Science in Electrical and Electronic Engineering",
+        "institution": "Jashore University of Science and Technology",
+        "details": [
+          "Undergraduate thesis on distributed-generation sizing and siting for loss reduction and voltage-profile improvement.",
+          "Research later published as an IEEE conference paper."
+        ]
+      },
+      {
+        "period": "2011 - 2013",
+        "degree": "Higher Secondary School Certificate (H.S.C.)",
+        "institution": "Govt. M.M. City College, Khulna",
+        "details": [
+          "Field of study: Science"
+        ]
+      }
+    ],
+    "training": [{
+        "title": "Diploma in Computer Science (DCS)",
+        "institution": "National Youth Development Academy (NYDA), Bangladesh"
+      },
+      {
+        "title": "Industrial Technology on Electrical Engineering & Instrumentation",
+        "institution": "Training Institute for Chemical Industries (TICI / Central Training Institute of BCIC), Bangladesh",
+        "period": "April - May 2018"
+      }
+    ],
+    "skillGroups": [{
+        "title": "Backend Development",
+        "items": [
+          "Laravel",
+          "PHP",
+          "REST API Development",
+          "Object-Oriented Programming",
+          "MVC Architecture"
+        ]
+      },
+      {
+        "title": "Frontend Development",
+        "items": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "jQuery",
+          "Bootstrap",
+          "React — currently learning",
+          "Next.js — currently learning"
+        ]
+      },
+      {
+        "title": "Database & Performance",
+        "items": [
+          "MySQL",
+          "Database design",
+          "Query optimization",
+          "Application performance optimization"
+        ]
+      },
+      {
+        "title": "Server & DevOps",
+        "items": [
+          "Linux / Ubuntu Server",
+          "NGINX",
+          "cPanel",
+          "Git / GitHub",
+          "Docker",
+          "Deployment & maintenance"
+        ]
+      },
+      {
+        "title": "Delivery & Collaboration",
+        "items": [
+          "Jira",
+          "Project planning",
+          "Debugging & testing",
+          "SEO-aware development",
+          "Team leadership",
+          "Cross-functional collaboration"
+        ]
+      }
+    ],
+    "languageLabel": "LANGUAGES",
+    "languages": [
+      "Bengali — Native",
+      "English — IELTS Academic 6.0"
+    ]
+  },
+  "portfolio": {
+    "title": "SELECTED WORK",
+    "filters": [{
+        "key": "all",
+        "label": "All Projects"
+      },
+      {
+        "key": "ecommerce",
+        "label": "E-commerce"
+      },
+      {
+        "key": "news",
+        "label": "News & Media"
+      },
+      {
+        "key": "hospital",
+        "label": "Hospital & Healthcare"
+      },
+      {
+        "key": "corporate",
+        "label": "Corporate & Org"
+      },
+      {
+        "key": "other",
+        "label": "Other"
+      }
+    ],
+    "projects": [{
+        "name": "Ardhanggini",
+        "category": "ecommerce",
+        "categoryLabel": "E-commerce Platform",
+        "url": "https://www.ardhanggini.com",
+        "image": "/images/projects/ardhanggini.png",
+        "alt": "Ardhanggini e-commerce project",
+        "description": "E-commerce storefront and product experience built for real customer browsing and ordering workflows.",
+        "stack": [
+          "Laravel",
+          "PHP",
+          "MySQL",
+          "JavaScript"
+        ]
+      },
+      {
+        "name": "Shreeja General Hospital",
+        "category": "hospital",
+        "categoryLabel": "Hospital & Healthcare",
+        "url": "https://www.shreeja.codershatbd.com",
+        "image": "/images/projects/shreeja.png",
+        "alt": "Shreeja General Hospital website project",
+        "description": "Hospital and healthcare website with patient-focused information, service details and contact workflows.",
+        "stack": [
+          "Laravel",
+          "PHP",
+          "MySQL",
+          "Responsive UI"
+        ]
+      },
+
+      {
+        "name": "BioMacLab",
+        "category": "corporate",
+        "categoryLabel": "Research & Scientific",
+        "url": "https://www.biomaclab.com",
+        "image": "/images/projects/biomaclab.png",
+        "alt": "BioMacLab website project",
+        "description": "Research and scientific website presenting laboratory information, research activity and technical content.",
+        "stack": [
+          "Laravel",
+          "PHP",
+          "MySQL",
+          "Research Web"
+        ]
+      },
+
+      {
+        "name": "GoFlixZa",
+        "category": "other",
+        "categoryLabel": "QR / Barcode / NFC Card Solutions",
+        "url": "https://www.goflixza.com",
+        "image": "/images/projects/goflixza.png",
+        "alt": "GoFlixZa project",
+        "description": "Digital platform centered on QR, barcode and NFC-based card solutions and related web workflows.",
+        "stack": [
+          "Laravel",
+          "PHP",
+          "MySQL",
+          "REST API"
+        ]
+      },
+      
+      {
+        "name": "JutaLagbe",
+        "category": "ecommerce",
+        "categoryLabel": "Footwear E-commerce",
+        "url": "https://www.jutalagbe.com.bd",
+        "image": "/images/projects/jutalagbe.png",
+        "alt": "JutaLagbe e-commerce project",
+        "description": "Footwear e-commerce platform supporting catalog, customer and order-oriented commerce workflows.",
+        "stack": [
+          "Laravel",
+          "PHP",
+          "MySQL",
+          "jQuery"
+        ]
+      },
+      
+      {
+        "name": "Path Bangladesh",
+        "category": "corporate",
+        "categoryLabel": "Non-Profit Organization",
+        "url": "https://www.pathbangladesh.org",
+        "image": "/images/projects/pathbangladesh.png",
+        "alt": "Path Bangladesh website project",
+        "description": "Non-profit organization website designed to communicate programs, activities and public-facing information.",
+        "stack": [
+          "Laravel",
+          "PHP",
+          "MySQL",
+          "Responsive UI"
+        ]
+      },
+      {
+        "name": "PNN 24 News",
+        "category": "news",
+        "categoryLabel": "News Portal",
+        "url": "https://www.pnn24.news",
+        "image": "/images/projects/pnn24.png",
+        "alt": "PNN 24 News portal project",
+        "description": "News portal with content-heavy publishing workflows and responsive reader-facing pages.",
+        "stack": [
+          "Laravel",
+          "PHP",
+          "MySQL",
+          "News CMS"
+        ]
+      },
+      {
+        "name": "Weekly Inqilab",
+        "category": "news",
+        "categoryLabel": "News Portal",
+        "url": "http://www.weeklyinqilab.com",
+        "image": "/images/projects/weeklyinqilab.png",
+        "alt": "Weekly Inqilab news portal project",
+        "description": "Online news and media platform supporting frequent content publishing and public readership.",
+        "stack": [
+          "Laravel",
+          "PHP",
+          "MySQL",
+          "News CMS"
+        ]
+      },
+      
+
+      {
+        "name": "Ajkal US",
+        "category": "news",
+        "categoryLabel": "News Portal",
+        "url": "https://www.ajkal.us",
+        "image": "/images/projects/ajkal.png",
+        "alt": "Ajkal US news portal project",
+        "description": "News portal serving a media audience with structured publishing and responsive content delivery.",
+        "stack": [
+          "Laravel",
+          "PHP",
+          "MySQL",
+          "News CMS"
+        ]
+      },
+      
+      
+      {
+        "name": "Iuris Consulti",
+        "category": "corporate",
+        "categoryLabel": "Legal Organization",
+        "url": "https://www.iurisconsulti.org",
+        "image": "/images/projects/iurisconsulti.png",
+        "alt": "Iuris Consulti legal website project",
+        "description": "Legal organization website structured around professional information, services and public-facing content.",
+        "stack": [
+          "Laravel",
+          "PHP",
+          "MySQL",
+          "Corporate Web"
+        ]
+      },
+      {
+        "name": "VB Tech",
+        "category": "corporate",
+        "categoryLabel": "Corporate Website",
+        "url": "https://www.vbtech.com.bd",
+        "image": "/images/projects/vbtech.png",
+        "alt": "VB Tech corporate website project",
+        "description": "Corporate website supporting company information, services and business-facing digital presence.",
+        "stack": [
+          "Laravel",
+          "PHP",
+          "MySQL",
+          "Corporate Web"
+        ]
+      },
+      {
+        "name": "Neez Packages",
+        "category": "ecommerce",
+        "categoryLabel": "E-commerce (B2B)",
+        "url": "https://www.neezpackages.com",
+        "image": "/images/projects/neezpackages.svg",
+        "alt": "Neez Packages B2B e-commerce project",
+        "description": "B2B e-commerce platform for packaging products and business-oriented purchasing workflows.",
+        "stack": [
+          "Laravel",
+          "PHP",
+          "MySQL",
+          "B2B Commerce"
+        ]
+      },
+      {
+        "name": "DiscountZshop",
+        "category": "ecommerce",
+        "categoryLabel": "Discounts & Offer Platform",
+        "url": "https://www.discountzshop.com",
+        "image": "/images/projects/discountzshop.svg",
+        "alt": "DiscountZshop project",
+        "description": "Discount and offers platform with dynamic content, business logic and customer-facing web experiences.",
+        "stack": [
+          "Laravel",
+          "PHP",
+          "MySQL",
+          "JavaScript"
+        ]
+      },
+{
+        "name": "Ngen IT Training",
+        "category": "other",
+        "categoryLabel": "Educational Website",
+        "url": "https://www.ngenittraining.com",
+        "image": "/images/projects/ngenittraining.svg",
+        "alt": "Ngen IT Training website project",
+        "description": "Training and educational website supporting course-focused content and digital learning operations.",
+        "stack": [
+          "Laravel",
+          "PHP",
+          "MySQL",
+          "JavaScript"
+        ]
+      },
+{
+        "name": "Arsuk Online",
+        "category": "ecommerce",
+        "categoryLabel": "E-commerce Platform (B2B)",
+        "url": "https://www.arsukonline.com",
+        "image": "/images/projects/arsukonline.svg",
+        "alt": "Arsuk Online B2B e-commerce project",
+        "description": "B2B e-commerce platform built around product catalog, business ordering and operational workflows.",
+        "stack": [
+          "Laravel",
+          "PHP",
+          "MySQL",
+          "B2B Commerce"
+        ]
+      },
+{
+        "name": "Dadabhaai",
+        "category": "ecommerce",
+        "categoryLabel": "E-commerce Platform",
+        "url": "https://www.dadabhaai.com",
+        "image": "/images/projects/dadabhaai.svg",
+        "alt": "Dadabhaai e-commerce project",
+        "description": "E-commerce platform with product, customer and order-management workflows for online retail.",
+        "stack": [
+          "Laravel",
+          "PHP",
+          "MySQL",
+          "E-commerce"
+        ]
+      }
+    ],
+    "intro": "A selection of production websites and web platforms I have worked on across e-commerce, business, media, education and organizations. These projects reflect practical experience delivering and maintaining real-world web solutions.",
+    "currentBuild": {
+      "eyebrow": "CURRENTLY BUILDING",
+      "title": "KhandkerShahed.com — Next.js Portfolio Rebuild",
+      "description": "Migrating this portfolio from PHP to a React/Next.js architecture with TypeScript, English/Italian content, dark/light themes, responsive layouts, static export and a JSON-to-API-ready data layer.",
+      "tags": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "EN / IT",
+        "Responsive UI",
+        "Static Export"
+      ]
+    }
+  },
+  "blog": {
+    "title": "DEVELOPER NOTES",
+    "intro": "I write about problems I actually face, what I am learning, and how I think about software development while my stack keeps growing.",
+    "readArticle": "Read article",
+    "backToBlog": "Back to all articles",
+    "sourcesLabel": "References & further reading",
+    "posts": [{
+        "slug": "database-indexes-and-query-tuning-in-practice",
+        "title": "Database Indexes Made Simple: How I Spot and Fix Bottlenecks in MySQL",
+        "excerpt": "A practical guide to database indexing, composite keys, and using EXPLAIN to turn sluggish queries into millisecond lookups.",
+        "category": "Databases / MySQL",
+        "published": "March 2026",
+        "readTime": "6 min read",
+        "intro": "When tables grow from a few hundred rows to hundreds of thousands, queries that used to feel instant suddenly freeze up the whole app. Most of the time, the fix is not rewriting your database engine—it is knowing when and where to put indexes.",
+        "sections": [{
+            "heading": "What an index actually does",
+            "paragraphs": [
+              "Think of a database table without indexes like a book without an index section or table of contents. To find an order with `status = 'completed'`, MySQL has to scan every single page (a full table scan). An index creates an ordered lookup structure that lets the database jump directly to matching rows.",
+              "However, adding indexes to every single column hurts write performance. Every time you insert or update a record, the database has to recalculate the index trees. Balance is key."
+            ],
+            "bullets": [
+              "Index columns frequently used in `WHERE`, `ORDER BY`, and `JOIN` conditions",
+              "Do not index low-cardinality fields like booleans by themselves",
+              "Foreign keys should almost always have an index",
+              "Watch out for too many indexes on high-write tables"
+            ]
+          },
+          {
+            "heading": "Composite indexes and column order",
+            "paragraphs": [
+              "A common mistake is creating two separate indexes for two columns that are always queried together, like `user_id` and `created_at`. A composite index on `(user_id, created_at)` is much more efficient.",
+              "The order of columns in a composite index matters: place the equality checks first (like `user_id = 5`) and the range or sorting column last (like `created_at DESC`)."
+            ]
+          },
+          {
+            "heading": "Using EXPLAIN before making changes",
+            "paragraphs": [
+              "Before guessing which index to add, run `EXPLAIN` on your raw SQL query. Look at the `type` and `rows` columns. If `type` says `ALL`, MySQL is doing a full table scan. After adding your migration index, check `EXPLAIN` again to ensure the query is using the index and checking a fraction of the rows."
+            ]
+          }
+        ],
+        "closing": "Understanding indexes takes the mystery out of database optimization. Spending twenty minutes analyzing slow query logs and adding clean composite indexes can save you hundreds of dollars in server costs.",
+        "sources": [],
+        "tags": [
+          "MySQL",
+          "Databases",
+          "SQL",
+          "Backend",
+          "Optimization"
+        ],
+        "publishedIso": "2026-03-18T00:00:00+01:00",
+        "modifiedIso": "2026-03-24T00:00:00+01:00"
+      },
+      {
+        "slug": "my-mern-learning-roadmap",
+        "title": "My MERN Learning Roadmap: React, Next.js, Supabase, Prisma and DSA Without Trying to Learn Everything at Once",
+        "excerpt": "The roadmap I am following to move from JavaScript fundamentals into React, Next.js and modern full-stack development while keeping DSA in the plan.",
+        "category": "MERN / Learning",
+        "published": "April 2026",
+        "readTime": "8 min read",
+        "intro": "I already have professional experience with Laravel, PHP, MySQL, JavaScript and jQuery, but modern React-based development is a different way of thinking. I do not want to collect technologies only for my CV. My goal is to become comfortable enough with the JavaScript ecosystem that I can build and explain a complete application from the UI to the database and deployment.",
+        "sections": [{
+            "heading": "Stage 1 — JavaScript before React",
+            "paragraphs": [
+              "My first rule is simple: React should not hide weak JavaScript fundamentals. I am working through control flow, functions, arrays, objects, scope, closures, modules, asynchronous JavaScript, promises, async/await, DOM concepts and modern ES features. I also practice output-prediction problems because they force me to understand what the language is actually doing."
+            ],
+            "bullets": [
+              "Functions, scope and closures",
+              "Arrays, objects and immutable updates",
+              "Destructuring, spread/rest and modules",
+              "Promises, async/await and error handling",
+              "Fetch, JSON and browser APIs",
+              "Debugging with DevTools"
+            ]
+          },
+          {
+            "heading": "Stage 2 — React as a component system",
+            "paragraphs": [
+              "After JavaScript, I am focusing on components, props, state, events, forms and the mental model behind rendering. I want to understand when state is necessary and when normal variables or server data are enough. I am also practicing reusable components instead of making every page one large file."
+            ],
+            "bullets": [
+              "Components and composition",
+              "Props and state",
+              "Controlled forms",
+              "Effects and their real use cases",
+              "Custom hooks",
+              "Client-side data fetching",
+              "Accessibility and responsive UI"
+            ]
+          },
+          {
+            "heading": "Stage 3 — Next.js for production-oriented React",
+            "paragraphs": [
+              "I am using this portfolio migration as one of my small Next.js projects. It lets me practice the App Router, layouts, static generation, metadata, localized routes and the difference between Server and Client Components. That feels more useful than building only tutorial counters or to-do lists."
+            ],
+            "bullets": [
+              "App Router and layouts",
+              "Server vs Client Components",
+              "Static generation and caching",
+              "Metadata and SEO",
+              "Route parameters",
+              "Forms and API integration",
+              "Deployment and performance"
+            ]
+          },
+          {
+            "heading": "Stage 4 — Node, Express and the MERN backend",
+            "paragraphs": [
+              "For the MERN side, I will move into Node.js and Express after the frontend fundamentals are stable. The goal is to build REST APIs, authentication, validation, error handling and authorization rather than only learning Express syntax. MongoDB and Mongoose come here because I want to understand document modelling in contrast with the relational database work I already know from MySQL."
+            ],
+            "bullets": [
+              "Node.js fundamentals",
+              "Express routing and middleware",
+              "REST API design",
+              "Authentication and authorization",
+              "MongoDB and Mongoose",
+              "Validation, logging and error handling",
+              "Testing APIs"
+            ]
+          },
+          {
+            "heading": "Where Supabase and Prisma fit",
+            "paragraphs": [
+              "I also want experience outside the strict MERN stack. Supabase is useful for quickly building projects with PostgreSQL, authentication, storage and realtime features. Prisma is useful because it gives a typed data-access layer and exposes me to a different database workflow than Eloquent.",
+              "I do not plan to mix every tool into every project. I would rather build one small project with Supabase, another with Prisma and PostgreSQL, and a more traditional MERN project with MongoDB. That way I can compare the trade-offs instead of memorizing APIs."
+            ],
+            "bullets": [
+              "Supabase: PostgreSQL, auth, storage and realtime",
+              "Prisma: schema, migrations and typed queries",
+              "MongoDB/Mongoose: document-oriented modelling",
+              "MySQL: keep strengthening the relational foundation I already use professionally"
+            ]
+          },
+          {
+            "heading": "DSA stays in the roadmap",
+            "paragraphs": [
+              "I do not want DSA to become a separate subject that I study for interviews and immediately forget. I am planning regular practice alongside development: arrays, strings, hash maps, stacks, queues, linked lists, trees, recursion, sorting, searching and basic dynamic programming. The goal is problem-solving speed and better reasoning, not solving hundreds of problems only for a number on a profile."
+            ]
+          },
+          {
+            "heading": "The project sequence I want to follow",
+            "paragraphs": [
+              "My learning projects will become gradually more complete. Each one should introduce only a few new concepts so I can understand the code instead of copying a giant starter project."
+            ],
+            "bullets": [
+              "Small React UI project with forms and API data",
+              "Next.js portfolio with localization, SEO and static deployment",
+              "Supabase-powered dashboard with authentication",
+              "Next.js + Prisma + PostgreSQL CRUD/business application",
+              "Full MERN application with MongoDB, Express, React and Node",
+              "One polished production-style project with tests, CI/CD and documentation"
+            ]
+          }
+        ],
+        "closing": "My roadmap is intentionally slower than ‘learn MERN in 30 days’. I already know from Laravel that real confidence comes from debugging, deployment and maintaining projects after the first version works. I want the same depth in the JavaScript ecosystem.",
+        "sources": [],
+        "tags": [
+          "JavaScript",
+          "MERN",
+          "React",
+          "Node.js"
+        ],
+        "publishedIso": "2026-04-10T00:00:00+02:00",
+        "modifiedIso": "2026-04-18T00:00:00+02:00"
+      },
+      {
+        "slug": "from-blade-to-react-mental-model",
+        "title": "Moving from Laravel Blade to React: The Mental Shifts That Tripped Me Up",
+        "excerpt": "Switching from server-rendered Blade templates to React and Next.js feels weird at first. Here are the differences in state, re-rendering, and component thinking.",
+        "category": "React / Frontend",
+        "published": "May 2026",
+        "readTime": "7 min read",
+        "intro": "Coming from a strong Laravel background, I was used to the server doing all the heavy lifting. Blade takes PHP data, spits out HTML, and browser-side interactivity is sprinkled in with jQuery or vanilla JS. Moving over to React and Next.js forced me to completely rewire how I think about user interfaces.",
+        "sections": [{
+            "heading": "Thinking in components instead of whole templates",
+            "paragraphs": [
+              "In Blade, you often think in pages and partials. You include a navbar, render some loops, and if something changes dynamically, you probably make an AJAX call and swap DOM nodes manually.",
+              "In React, your UI is a direct reflection of state. When state updates, React handles the DOM updates for you. Learning not to touch the DOM directly and instead managing data flows took some getting used to."
+            ],
+            "bullets": [
+              "Props flow down, events bubble up",
+              "Keep state as close as possible to where it is actually used",
+              "Derive values during render instead of creating duplicate state variables",
+              "Break large views into small, single-responsibility components"
+            ]
+          },
+          {
+            "heading": "Handling forms and user input",
+            "paragraphs": [
+              "In Laravel, form handling is simple: submit a POST request, validate in a Form Request, and redirect back with flash messages. In React, managing controlled inputs and client validation felt verbose until I started using structured hook patterns.",
+              "With Next.js App Router and Server Actions, the gap between backend validation and frontend forms feels much closer to what I love about Laravel, while still giving users instant client feedback."
+            ]
+          },
+          {
+            "heading": "Server Components vs Client Components",
+            "paragraphs": [
+              "Next.js App Router made React click for me because Server Components feel a lot like Blade. They run on the server, can fetch data directly without exposing API keys, and ship zero JavaScript to the browser. I only drop `'use client'` on interactive islands like modals, theme toggles, and dropdowns."
+            ]
+          }
+        ],
+        "closing": "React is not replacing backend frameworks like Laravel for me—it is complementing them. Once you understand the component lifecycle and state management, building interactive dashboards becomes a much smoother experience.",
+        "sources": [],
+        "tags": [
+          "React",
+          "Next.js",
+          "JavaScript",
+          "Frontend"
+        ],
+        "publishedIso": "2026-05-22T00:00:00+02:00",
+        "modifiedIso": "2026-05-29T00:00:00+02:00"
+      },
+      {
+        "slug": "laravel-query-optimization-and-caching",
+        "title": "Fixing Slow Laravel Apps: What I Actually Do Before Blaming the Server",
+        "excerpt": "When an app feels sluggish, throwing hardware at it rarely helps. Here is my practical checklist for fixing N+1 issues, trimming payloads, and using Redis effectively.",
+        "category": "Laravel / Performance",
+        "published": "June 2026",
+        "readTime": "6 min read",
+        "intro": "Every developer has been there: a project runs blazing fast locally with 20 mock records, but once you seed 10,000 rows or push to production, pages take 4 seconds to load. My first instinct years ago was to upgrade the VPS. Now, I look straight at the database tab in Laravel Debugbar and start fixing queries.",
+        "sections": [{
+            "heading": "The hidden trap of Eloquent lazy loading",
+            "paragraphs": [
+              "Eloquent makes relationships so simple to write that you do not notice you are firing hundreds of database calls inside a single foreach loop. This classic N+1 problem is almost always the main culprit behind slow response times.",
+              "Eager loading with `with()` solves this immediately, but you also need to stop fetching columns you do not need. Pulling entire text columns or large JSON blobs across 50 records adds huge memory overhead on the PHP worker."
+            ],
+            "bullets": [
+              "Always eager load relations using `with()` on list pages",
+              "Select only the necessary columns instead of `select *`",
+              "Use `Model::preventLazyLoading(!app()->isProduction())` in local dev",
+              "Paginate everything—never dump full collections into views"
+            ]
+          },
+          {
+            "heading": "Where caching actually makes sense",
+            "paragraphs": [
+              "Caching is not a magic fix for bad schema design, but it works wonders for static lookups. Navigation menus, site settings, categorized dropdowns, and dashboard counts that do not change every second should never hit MySQL repeatedly on every request.",
+              "I use Redis as the cache driver and wrap expensive aggregations in `Cache::remember()`. The trick is keeping your cache keys predictable so you can invalidate them via model observers when data updates."
+            ]
+          },
+          {
+            "heading": "Queues keep the request-response cycle fast",
+            "paragraphs": [
+              "If a user clicks 'Complete Order' and has to wait while your server compiles an invoice PDF, connects to an SMTP server to send an email, and updates external stock via an API, they will think your site is frozen.",
+              "Pushing notifications, heavy exports, and third-party API calls to database or Redis queues makes the UI respond instantly while the worker handles the heavy lifting in the background."
+            ]
+          }
+        ],
+        "closing": "Performance tuning in Laravel is rarely about micro-optimizing PHP loops. If you fix your queries, cache static data, and queue external work, 90% of your performance bottlenecks disappear.",
+        "sources": [],
+        "tags": [
+          "Laravel",
+          "PHP",
+          "MySQL",
+          "Performance",
+          "Redis"
+        ],
+        "publishedIso": "2026-06-15T00:00:00+02:00",
+        "modifiedIso": "2026-06-21T00:00:00+02:00"
+      },
+      {
+        "slug": "ai-ml-changing-software-development",
+        "title": "AI/ML in Software Development in 2026: The Part That Matters to Me as a Developer",
+        "excerpt": "AI coding tools are moving from autocomplete toward planning, tool use, testing and repository-level work. Here is how I think that changes a developer's job.",
+        "category": "AI / Software Engineering",
+        "published": "July 2026",
+        "readTime": "7 min read",
+        "intro": "For a long time, ‘AI for developers’ mostly meant code completion or asking a chatbot for a snippet. That is changing quickly. In 2026, the more interesting shift is that coding systems can inspect a repository, make a plan, edit several files, run commands and tests, and keep iterating. For me, this does not make software engineering less important. It makes the quality of the engineering environment more important.",
+        "sections": [{
+            "heading": "From code suggestions to software tasks",
+            "paragraphs": [
+              "OpenAI describes Codex as a software engineering agent that can work on tasks such as implementing features, fixing bugs and proposing changes. GitHub's cloud agent can research a repository, create an implementation plan, modify code and prepare pull requests. That is a very different interaction from accepting the next line of autocomplete.",
+              "The practical change is that a developer can delegate a bounded task and spend more time reviewing intent, architecture, tests and edge cases. But the task has to be bounded. If the repository is inconsistent and the instruction is vague, the agent can move fast in the wrong direction."
+            ]
+          },
+          {
+            "heading": "Tests and structure become even more valuable",
+            "paragraphs": [
+              "One reason coding agents are useful is that software has feedback loops. A tool can run a test, see that it failed, change the code and try again. Anthropic has pointed out that coding is a strong use case for agents because the solution can often be checked automatically.",
+              "This makes me think about old-fashioned engineering practices in a new way. Clear modules, meaningful tests, predictable commands, good documentation and a clean Git history are not bureaucracy. They are context that helps both humans and AI understand what ‘correct’ looks like."
+            ]
+          },
+          {
+            "heading": "What I do not want AI to decide silently",
+            "paragraphs": [
+              "I am comfortable asking an AI assistant to explain a stack trace, draft tests or suggest a refactor. I am much more careful when the task touches authorization, payments, destructive database migrations, secrets, production infrastructure or security boundaries. Those areas need explicit review because a syntactically correct answer can still create a serious business problem."
+            ],
+            "bullets": [
+              "Authentication and authorization rules",
+              "Database migrations that can destroy or transform existing data",
+              "Payment and billing logic",
+              "Secrets and production credentials",
+              "Security-sensitive API behavior",
+              "Large refactors that change public contracts"
+            ]
+          },
+          {
+            "heading": "The developer skill I think becomes more important",
+            "paragraphs": [
+              "The skill I want to improve is not ‘prompt engineering’ as a collection of magic phrases. It is context engineering: explaining the goal, constraints, existing architecture, available tools and definition of done clearly enough that another developer—or an AI agent—can work safely.",
+              "Recent agent systems are also becoming better at long-running tasks, computer use and multiple tool calls. That increases their usefulness, but it also increases the impact of bad context. A powerful agent with unclear boundaries is not automatically a productive teammate."
+            ]
+          },
+          {
+            "heading": "How this changes my own learning",
+            "paragraphs": [
+              "I am still learning React, Next.js and more of the JavaScript ecosystem. AI lets me move faster when I get stuck, but I deliberately type and test important code myself. If I cannot explain a component, an API route or a database query, then I do not count it as learned. I want AI to increase my iteration speed, not create a gap between what my portfolio shows and what I can actually build in an interview or job."
+            ]
+          }
+        ],
+        "closing": "My current view is simple: AI will automate more implementation work, but good developers will still be responsible for deciding what should be built, creating reliable constraints, reviewing results and understanding the system when something goes wrong.",
+        "sources": [{
+            "label": "OpenAI — Introducing Codex",
+            "url": "https://openai.com/index/introducing-codex/"
+          },
+          {
+            "label": "OpenAI — Introducing GPT-5.4",
+            "url": "https://openai.com/index/introducing-gpt-5-4/"
+          },
+          {
+            "label": "GitHub Docs — Copilot cloud agent",
+            "url": "https://docs.github.com/copilot/concepts/agents/cloud-agent/about-cloud-agent"
+          },
+          {
+            "label": "Anthropic — Building Effective AI Agents",
+            "url": "https://www.anthropic.com/engineering/building-effective-agents"
+          }
+        ],
+        "tags": [
+          "AI",
+          "Machine Learning",
+          "Software Development",
+          "Productivity"
+        ],
+        "publishedIso": "2026-07-08T00:00:00+02:00",
+        "modifiedIso": "2026-07-16T00:00:00+02:00"
+      },
+      {
+        "slug": "agentic-ai-from-chatbot-to-worker",
+        "title": "Agentic AI: What Changes When an AI Can Use Tools Instead of Only Answering Questions?",
+        "excerpt": "My practical mental model for agentic AI: model + instructions + tools + state + feedback, and why reliability matters more than making an agent look autonomous.",
+        "category": "Agentic AI",
+        "published": "August 2026",
+        "readTime": "8 min read",
+        "intro": "The word ‘agentic’ is used everywhere now, so I try to keep my definition practical. A normal chatbot mainly returns an answer. An agent is useful when it can decide on a next action, call a tool, observe the result and continue toward a goal. That tool might be a browser, terminal, database, API, calendar, code editor or another specialized service.",
+        "sections": [{
+            "heading": "The agent loop in simple terms",
+            "paragraphs": [
+              "OpenAI describes an agent loop as the cycle that connects user instructions, model reasoning and tool calls. I think of it as: understand the task, choose an action, use a tool, inspect what happened, and decide what to do next. The loop continues until the goal is completed or the system reaches a stop condition."
+            ],
+            "bullets": [
+              "Goal or user request",
+              "Instructions and context",
+              "Model decision",
+              "Tool call",
+              "Tool result",
+              "Verification",
+              "Next action or final answer"
+            ]
+          },
+          {
+            "heading": "Why tools change the risk level",
+            "paragraphs": [
+              "If a model only writes text, a wrong answer is usually contained in the conversation. If the same model can edit files, run shell commands, send emails or update a database, the consequences can leave the chat. That is why permissions, confirmations, sandboxing and audit logs matter.",
+              "I find the coding-agent example easy to understand. A useful coding agent might read a repository, edit three files and run the test suite. A dangerous version would have unrestricted access to production secrets and deploy automatically without a review gate. The model may be the same; the surrounding system makes the difference."
+            ]
+          },
+          {
+            "heading": "Single agent first, orchestration later",
+            "paragraphs": [
+              "Multi-agent diagrams look impressive, but I do not think every task needs a team of agents. Anthropic's guidance repeatedly emphasizes starting with the simplest approach that works and increasing complexity only when it is necessary. That matches normal software architecture: more services and more coordination also mean more failure points.",
+              "For a small business workflow, one agent with a few well-designed tools can be enough. Multiple agents make sense when responsibilities are genuinely different—for example, one agent researches, another implements, and a reviewer checks the result—but only if the handoffs are measurable."
+            ]
+          },
+          {
+            "heading": "What makes an agent useful in production",
+            "paragraphs": [
+              "The interesting engineering work is around the model. The tool definitions must be clear. Inputs need validation. The agent needs the right amount of context. Long-running tasks need checkpoints. Errors need to be observable. Sensitive actions need approval. And there should be evaluations that tell us whether a new prompt, tool or model actually improved the workflow."
+            ],
+            "bullets": [
+              "Least-privilege tool permissions",
+              "Structured tool inputs and outputs",
+              "Human approval for irreversible actions",
+              "Tracing and logs",
+              "Retries and clear failure states",
+              "Automated evaluations",
+              "Cost and latency limits",
+              "A safe way to stop the loop"
+            ]
+          },
+          {
+            "heading": "Where I want to experiment with agentic AI",
+            "paragraphs": [
+              "As I continue learning modern full-stack development, I want to build small agentic features instead of jumping directly to a giant autonomous platform. Examples I find interesting are a support assistant that can search approved documentation, a development assistant that can inspect project issues, or a business workflow that drafts an action but requires a human to approve it.",
+              "That approach lets me learn tool calling, state, retrieval, permissions and evaluation one piece at a time. It also fits the way I prefer to build normal software: make the smallest reliable workflow first, then expand it."
+            ]
+          }
+        ],
+        "closing": "Agentic AI is exciting because it moves AI from ‘tell me’ toward ‘help me do’. The difficult part is not making the agent take actions. The difficult part is making those actions predictable, reviewable and safe enough that I would trust the system with real work.",
+        "sources": [{
+            "label": "OpenAI — Unrolling the Codex agent loop",
+            "url": "https://openai.com/index/unrolling-the-codex-agent-loop/"
+          },
+          {
+            "label": "OpenAI — Harness engineering",
+            "url": "https://openai.com/index/harness-engineering/"
+          },
+          {
+            "label": "GitHub Docs — Copilot agents",
+            "url": "https://docs.github.com/copilot/concepts/agents/cloud-agent/about-cloud-agent"
+          },
+          {
+            "label": "Anthropic — Building Effective AI Agents",
+            "url": "https://www.anthropic.com/engineering/building-effective-agents"
+          }
+        ],
+        "tags": [
+          "Agentic AI",
+          "AI Agents",
+          "Automation",
+          "Software Engineering"
+        ],
+        "publishedIso": "2026-08-11T00:00:00+02:00",
+        "modifiedIso": "2026-08-20T00:00:00+02:00"
+      }
+    ],
+    "articleLabel": "Article"
+  },
+  "contact": {
+    "title": "GET IN TOUCH",
+    "intro": "I am based in Bologna, Italy and open to web/software-development opportunities, collaboration and project discussions.",
+    "writeMe": "Contact details",
+    "whatsappLabel": "Phone / WhatsApp",
+    "emailLabelText": "Email",
+    "locationLabel": "Location",
+    "followMe": "Professional links",
+    "formIntro": "Send a message",
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "companyLabel": "Company",
+    "messageLabel": "Message",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "you@example.com",
+    "companyPlaceholder": "Company or organization (optional)",
+    "messagePlaceholder": "Tell me about the role, opportunity or project",
+    "send": "Send message",
+    "sending": "Sending…",
+    "success": "Thank you. Your message was sent successfully.",
+    "error": "The message could not be sent. Please try again or contact me by email or WhatsApp.",
+    "privacyNote": "Your message is submitted through FormSubmit and is used only to reply to your enquiry.",
+    "subject": "Portfolio contact from khandkershahed.com"
+  },
+  "footer": {
+    "copyright": "All rights reserved"
+  },
+  "about": {
+    "title": "ABOUT ME",
+    "eyebrow": "ABOUT & EXPERIENCE",
+    "headline": "A production-minded web developer growing toward broader software engineering.",
+    "intro": "I am Khandker Shahed, a full-stack web developer based in Bologna, Italy. I have more than five years of professional experience working on Laravel/PHP applications, e-commerce platforms, REST APIs, LMS and business-management systems. My background also includes project coordination, database optimization, deployment and maintenance. I am currently strengthening my JavaScript fundamentals and learning the MERN stack while preparing to begin an MSc in Communication Engineering at the University of Bologna in September 2026.",
+    "primaryCta": "View full resume",
+    "secondaryCta": "Contact me",
+    "stats": [{
+        "value": "5+",
+        "label": "Years in professional web development"
+      },
+      {
+        "value": "15+",
+        "label": "Live projects in the current portfolio"
+      },
+      {
+        "value": "Bologna",
+        "label": "Current base in Italy"
+      }
+    ],
+    "quotePrimary": "I value software that solves the actual problem, stays understandable for the team and remains maintainable after delivery.",
+    "quoteSecondary": "My next step is to combine my production web-development experience with stronger JavaScript, MERN and software-engineering foundations.",
+    "pillarsTitle": "Four principles behind my work",
+    "pillars": [{
+        "number": "01",
+        "title": "End-to-end ownership",
+        "description": "I am comfortable following a project from planning and database design through implementation, deployment and maintenance."
+      },
+      {
+        "number": "02",
+        "title": "Practical collaboration",
+        "description": "I have coordinated developers and worked with design, QA and other teams using tools such as Jira and sprint planning."
+      },
+      {
+        "number": "03",
+        "title": "Performance & reliability",
+        "description": "I pay attention to MySQL queries, debugging, application speed, production stability and maintainable fixes."
+      },
+      {
+        "number": "04",
+        "title": "Continuous learning",
+        "description": "I keep my current strengths clear while deliberately expanding into JavaScript, React, Next.js and the MERN stack."
+      }
+    ],
+    "experienceTitle": "Work experience",
+    "skillsTitle": "Skills & expertise",
+    "educationTitle": "Education & training",
+    "researchTitle": "Research & technical interests",
+    "researchIntro": "My academic background is in Electrical and Electronic Engineering, and my broader interests include software engineering, machine learning, artificial intelligence, data science and bioinformatics. I have also contributed to research publications alongside my software-development work.",
+    "publicationsTitle": "Selected publications",
+    "publications": [{
+        "year": "2020",
+        "title": "Loss Reduction and Voltage Profile Renovation with Optimum Sizing and Siting of Distributed Generation in Distribution Network",
+        "venue": "IEEE conference paper",
+        "url": "https://doi.org/10.1109/ICAICT51780.2020.9333503"
+      },
+      {
+        "year": "2024",
+        "title": "A comparative genomic and phylogenomic study of Nocardia seriolae strains unveils high genetic homogeneity and open nature of the pangenome",
+        "venue": "Access Microbiology",
+        "url": "https://doi.org/10.1099/acmi.0.000908.v1"
+      }
+    ],
+    "pillarsEyebrow": "APPROACH",
+    "experienceEyebrow": "BACKGROUND",
+    "educationEyebrow": "EDUCATION",
+    "researchEyebrow": "RESEARCH"
+  }
+}
