@@ -41,3 +41,50 @@ jobs:
           test -f out/robots.txt
           test -f out/sitemap.xml
           test -f out/.htaccess
+
+      - name: Upload production artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-static
+          path: out/
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 7
+
+  deploy-test:
+    needs: build-and-check
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download production artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: portfolio-static
+          path: out
+
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+
+          printf '%s\n' "${{ secrets.NC_SSH_KEY }}" > ~/.ssh/namecheap_deploy
+          chmod 600 ~/.ssh/namecheap_deploy
+
+          printf '%s\n' "${{ secrets.NC_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
+
+      - name: Test SSH connection
+        run: |
+          ssh \
+            -i ~/.ssh/namecheap_deploy \
+            -p "${{ vars.NC_PORT }}" \
+            "${{ vars.NC_USER }}@${{ vars.NC_HOST }}" \
+            "echo 'GitHub Actions SSH connection successful'"
+
+      - name: Deploy to safe test directory
+        run: |
+          rsync -az \
+            -e "ssh -i ~/.ssh/namecheap_deploy -p ${{ vars.NC_PORT }}" \
+            out/ \
+            "${{ vars.NC_USER }}@${{ vars.NC_HOST }}:/home/trektrwu/khandkershahed-cicd-test/"
