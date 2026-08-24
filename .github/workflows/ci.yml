@@ -131,3 +131,64 @@ jobs:
             -e "ssh -i ~/.ssh/namecheap_deploy -p ${{ vars.NC_PORT }}" \
             out/ \
             "${{ vars.NC_USER }}@${{ vars.NC_HOST }}:${{ vars.NC_DEPLOY_PATH }}/"
+
+
+  deploy-production:
+    needs: deploy-production-dry-run
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download production artifact
+        uses: actions/download-artifact@v7
+        with:
+          name: portfolio-static
+          path: out
+
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+
+          printf '%s\n' "${{ secrets.NC_SSH_KEY }}" > ~/.ssh/namecheap_deploy
+          chmod 600 ~/.ssh/namecheap_deploy
+
+          printf '%s\n' "${{ secrets.NC_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
+
+      - name: Verify production target
+        run: |
+          ssh \
+            -o BatchMode=yes \
+            -o StrictHostKeyChecking=yes \
+            -i ~/.ssh/namecheap_deploy \
+            -p "${{ vars.NC_PORT }}" \
+            "${{ vars.NC_USER }}@${{ vars.NC_HOST }}" \
+            "test -d '${{ vars.NC_DEPLOY_PATH }}' && echo 'Production target exists'"
+
+      - name: Deploy to production
+        run: |
+          rsync -az \
+            --delete \
+            --itemize-changes \
+            --exclude='.well-known/' \
+            --exclude='cgi-bin/' \
+            -e "ssh -i ~/.ssh/namecheap_deploy -p ${{ vars.NC_PORT }}" \
+            out/ \
+            "${{ vars.NC_USER }}@${{ vars.NC_HOST }}:${{ vars.NC_DEPLOY_PATH }}/"
+
+      - name: Verify production files
+        run: |
+          ssh \
+            -o BatchMode=yes \
+            -o StrictHostKeyChecking=yes \
+            -i ~/.ssh/namecheap_deploy \
+            -p "${{ vars.NC_PORT }}" \
+            "${{ vars.NC_USER }}@${{ vars.NC_HOST }}" \
+            "test -f '${{ vars.NC_DEPLOY_PATH }}/index.html' &&
+             test -f '${{ vars.NC_DEPLOY_PATH }}/.htaccess' &&
+             test -f '${{ vars.NC_DEPLOY_PATH }}/robots.txt' &&
+             test -f '${{ vars.NC_DEPLOY_PATH }}/sitemap.xml' &&
+             test -f '${{ vars.NC_DEPLOY_PATH }}/en/index.html' &&
+             test -f '${{ vars.NC_DEPLOY_PATH }}/it/index.html' &&
+             echo 'Production verification passed'"
