@@ -74,9 +74,16 @@ jobs:
           printf '%s\n' "${{ secrets.NC_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
           chmod 600 ~/.ssh/known_hosts
 
+      - name: Verify SSH host entry
+        run: |
+          echo "Checking known_hosts entry..."
+          ssh-keygen -F "[${{ vars.NC_HOST }}]:${{ vars.NC_PORT }}" -f ~/.ssh/known_hosts
+
       - name: Test SSH connection
         run: |
           ssh \
+            -o BatchMode=yes \
+            -o StrictHostKeyChecking=yes \
             -i ~/.ssh/namecheap_deploy \
             -p "${{ vars.NC_PORT }}" \
             "${{ vars.NC_USER }}@${{ vars.NC_HOST }}" \
