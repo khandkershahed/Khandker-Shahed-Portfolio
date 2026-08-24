@@ -95,3 +95,38 @@ jobs:
             -e "ssh -i ~/.ssh/namecheap_deploy -p ${{ vars.NC_PORT }}" \
             out/ \
             "${{ vars.NC_USER }}@${{ vars.NC_HOST }}:/home/trektrwu/khandkershahed-cicd-test/"
+
+  deploy-production-dry-run:
+    needs: deploy-test
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download production artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: portfolio-static
+          path: out
+
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+
+          printf '%s\n' "${{ secrets.NC_SSH_KEY }}" > ~/.ssh/namecheap_deploy
+          chmod 600 ~/.ssh/namecheap_deploy
+
+          printf '%s\n' "${{ secrets.NC_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
+
+      - name: Production deployment dry run
+        run: |
+          rsync -az \
+            --dry-run \
+            --delete \
+            --itemize-changes \
+            --exclude='.well-known/' \
+            --exclude='cgi-bin/' \
+            -e "ssh -i ~/.ssh/namecheap_deploy -p ${{ vars.NC_PORT }}" \
+            out/ \
+            "${{ vars.NC_USER }}@${{ vars.NC_HOST }}:${{ vars.NC_DEPLOY_PATH }}/"
